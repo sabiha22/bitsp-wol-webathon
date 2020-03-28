@@ -1,0 +1,253 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Lato';
+}
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(31, 40, 51, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }  
+.header img{
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    float: left;
+}
+.header p{
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right:10px;
+  }
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #dbf3fa;/*#fc94af;*/
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-weight: bold;
+    text-align: left;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding: 120px 0 20px 0;
+    background: url(comp.jpg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    font-size: 80px;
+    padding-bottom: 80px;
+}
+
+.top img{
+    width: 100px;
+}
+
+.intro h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color:black;
+    font-weight: 700;
+}
+
+.intro p{
+    font-size: 20px;
+    color:black;
+}
+
+.fed{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding: 120px 0 20px 0;
+    color: black;
+    background-image: url(web.svg);
+    background-size: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fed h1{
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.fed p{
+    font-size: 28px;
+    padding: 0 100px;
+    margin-bottom: 3px;
+}
+
+.bed{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding: 70px 0 70px 0;
+    background-image:url(back.jpg);
+    background-size: 80%;
+    color: white;
+}
+
+.bed p {
+
+	margin: auto;
+	text-align: center;
+	width: 50%;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.appd{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding: 120px 0 20px 0;
+    background: url(appd1.svg);
+    color: black;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.appd h2{
+    font-size: 70px;
+    padding-bottom: 50px;
+    font-weight: normal;
+}
+
+.cp{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding: 80px 0 60px 0;
+    background: url(cp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.cp h2{
+    text-align: left;
+    color: #5f5d60;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.cp p{
+    font-size: 20px;
+}
+
+.cp ol{
+    font-size: 20px;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+.aboutme{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    padding: 60px 0 80px 0;
+    background: url(dev2.svg);
+    color: black;
+    background-size: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  hr{
+    width: 500px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2)
+  }
+
+  .aboutme h1{
+    font-size: 80px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.aboutme h3{
+    font-size: 40px;
+}
+
+.aboutme p{
+    font-size: 22px;
+    padding: 20px 40px 0 40px;
+}
+  footer p {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 30px;
+  }
+
+  footer h2 {
+    font-family: 'Lucida Console';
+    padding-left: 30px;
+  }
+  
+  footer {
+    background-color: #000026;
+    color: #dbf3fa;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
