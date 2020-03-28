@@ -28,6 +28,7 @@ body{
     font-size: 25px;
     color: white;
     float: left;
+    font-family: 'Lucida Console';
 }
 
 .header-right {
@@ -38,7 +39,7 @@ body{
 .header-right a {
     line-height: 65px;
     padding: 0 25px;
-    color: #dbf3fa;/*#fc94af;*/
+    color: white;
     display: block;
     float: left;
     transition: all 0.5s;
@@ -246,8 +247,8 @@ body{
   }
   
   footer {
-    background-color: #000026;
-    color: #dbf3fa;
+    background-color: rgba(31, 40, 51, 0.9);
+    color: white;
     padding-top: 40px;
     padding-bottom: 30px;
   }
